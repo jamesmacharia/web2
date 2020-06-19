@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<Title>
+Ultimate Sport Tips
+</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+</head>
+<body>
+
+<h2>Tabs</h2>
+<p>Click on the buttons inside the tabbed menu:</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Help')">Help</button>
+  <button class="tablinks" onclick="openCity(event, 'News')">News</button>
+  <button class="tablinks" onclick="openCity(event, 'Contacts')">Contacts</button>
+</div>
+
+<div id="Help" class="tabcontent">
+  <h3>Help</h3>
+  <p>Reach us on 0702802270.</p>
+</div>
+
+<div id="News" class="tabcontent">
+  <h3>News</h3>
+  <p>www.facebook.com/ultimatesporttips.</p> 
+</div>
+
+<div id="contacts" class="tabcontent">
+  <h3>contacts</h3>
+  <p>0702802270.</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+   
+</body>
+</html> 
+
+
+<style>
+div {
+  border: 1px solid gray;
+  padding: 6px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color:black;
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: #008CBA;
+}
+</style>
+</head>
+
+<h1 style="background-color:dodgerblue;">Ultimate Sport Tips</h1>
+
+<style>
+div {
+  border: 1px solid gray;
+  padding: 8px;
+}
+
+h2 {
+  text-align: center;
+  text-transform: lowercase;
+  color:black;
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: #008CBA;
+}
+</style>
+</head>
+
+<h2 style="color:blue">You miss 100% of the shots you don't take</h2>
+
+<head>
+<meta name+"viewport" content+"width+device-width,initial-scale=1">
+<style>
+div {
+   width:30px;
+   height:1px;
+   background-color:blue;
+   margin: 2px 0;
+}
+</style>
+</head>
+<body>
+<p>  menu icon:</p>
+
+<div></div>
+<div></div>
+<div></div>
+
+
+<P>This is a paragraph</p>
+
+
+</body>
+</html>
